@@ -4792,7 +4792,7 @@ input, select, textarea {
 			justify-content: center;
 			color: #000000;
 			cursor: default;
-			overflow:scroll;
+			overflow:hidden;
 			position: relative;
 			text-align: center;
 		}
@@ -4952,7 +4952,7 @@ input, select, textarea {
 				@media screen and (min-width: 1281px) and (max-width: 1680px) {
 
 					#banner > article.full {
-						min-height: 70vh;
+						min-height: 64vh;
 					}
 
 				}
@@ -4965,13 +4965,30 @@ input, select, textarea {
 				#banner > article.half .content {
 					width: 25rem;
 				}
-
+		
 		@media screen and (max-width: 1980px){
 			.container > img {
-				flex-shrink: 1;
+				width:18em;
 			}
-			
-				}		
+				}
+
+		@media screen and (max-width: 1480px){
+					.container > img {
+						width:15em;
+					}
+					#banner > article.full{
+						min-height: 53vh;
+					}
+						}
+
+		@media screen and (max-width: 1480px){
+					.container > img {
+						width:11.75em;
+					  }
+					#banner > article.full{
+						min-height: 25vh;
+					}
+					   }				
 
 		@media screen and (min-width: 737px) and (max-width: 980px) {
 
@@ -5039,6 +5056,14 @@ input, select, textarea {
 							width: 100%;
 							max-width: 100%;
 						}
+						#banner > article.full{
+							min-height: 30vh;
+							padding: 0em;
+						}
+
+						.container > img{
+						width:10em;
+					}
 
 		}
 

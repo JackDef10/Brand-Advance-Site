@@ -3650,6 +3650,16 @@ input, select, textarea {
 			z-index: 3000;
 		}
 
+		#showcase3 video {
+			position: absolute;
+			top: 135em;
+			left: 0;
+			width: 100%;
+			max-height: 50%;
+			object-fit: cover;
+			z-index: -1;
+		}
+
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
 				color: #ffffff;
 			}
@@ -4404,6 +4414,11 @@ input, select, textarea {
 				#header.alt > nav {
 					margin-bottom: 3.5rem;
 				}
+				#showcase3 video{
+					min-height: 40%;
+					top:120em;
+				}
+				
 
 		}
 
@@ -4420,6 +4435,11 @@ input, select, textarea {
 
 				#header.alt > nav {
 					margin-bottom: 3rem;
+				}
+
+				#showcase3 video{
+					min-height: 40%;
+					top:110em;
 				}
 
 		}
@@ -4484,6 +4504,9 @@ input, select, textarea {
 					background-repeat: no-repeat;
 				}
 
+				#showcase3 video{
+					visibility: hidden;
+				}
 				
 
 		}
